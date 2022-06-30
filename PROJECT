@@ -1,0 +1,16 @@
+domain: shubhamtatvamasi.com
+layout:
+- go.kubebuilder.io/v3
+projectName: guestbook
+repo: github.com/ShubhamTatvamasi/guestbook
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: shubhamtatvamasi.com
+  group: webapp
+  kind: Guestbook
+  path: github.com/ShubhamTatvamasi/guestbook/api/v1
+  version: v1
+version: "3"
